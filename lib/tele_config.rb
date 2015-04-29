@@ -8,7 +8,7 @@ require 'pathname'
 module TeleConfig
   ENV_PREFIX = 'TC'
 
-  require "lib/tele_config/railtie" if defined?(Rails)
+  require 'tele_config/railtie' if defined?(Rails)
 
   module_function
 
