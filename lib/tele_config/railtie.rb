@@ -12,7 +12,7 @@ module TeleConfig
 
     rake_tasks do
       desc 'Downloads the configuration file using the given source and parameters.'
-      task :tele_config, [:source, :destination, :prefix] => :env do |_, args|
+      task :tele_config, [:source, :destination, :prefix] => :environment do |_, args|
         if args.empty?
           show_usage
         else
