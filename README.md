@@ -1,3 +1,5 @@
+[![Code Climate](https://codeclimate.com/github/machisuji/tele_config/badges/gpa.svg)](https://codeclimate.com/github/machisuji/tele_config)
+
 # TeleConfig
 
 A gem used to download configuration files from different sources.
