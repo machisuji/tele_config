@@ -1,6 +1,7 @@
 require 'tele_config/version'
 require 'tele_config/source'
 require 'tele_config/sources/s3'
+require 'tele_config/sources/uri'
 
 require 'fileutils'
 require 'pathname'
@@ -48,6 +49,6 @@ module TeleConfig
   end
 
   def create_file_directory(file)
-    FileUtils.mkdirs_p Pathname(file).dirname
+    FileUtils.mkdir_p Pathname(file).dirname
   end
 end
