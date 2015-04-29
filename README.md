@@ -89,7 +89,7 @@ Currently TeleConfig comes with the URI and S3 sources only.
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/tele_config/fork )
+1. Fork it ( https://github.com/machisuji/tele_config/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
