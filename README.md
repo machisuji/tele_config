@@ -73,6 +73,20 @@ Then on the console:
 TeleConfig.download :uri, './robots.txt', prefix: 'MY_CONFIG'
 ```
 
+### Rake Task Use (Rails)
+
+TeleConfig provides a rake task for Rails 3+ which you can use.
+
+```bash
+TC_URI=https://www.google.co.ukk/robots.txt rake tele_config[uri,./robots.txt]
+```
+
+Custom prefixes are supported too:
+
+```bash
+MY_CONFIG_URI=https://www.google.co.ukk/robots.txt rake tele_config[uri,./robots.txt,MY_CONFIG]
+```
+
 ### Explicit Use
 
 Of course no one is stopping you from using the sources directly.
