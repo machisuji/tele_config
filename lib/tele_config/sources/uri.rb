@@ -1,4 +1,4 @@
-require 'uri-open'
+require 'open-uri'
 
 module TeleConfig
   module Sources
