@@ -22,8 +22,9 @@ module TeleConfig
   def download_source(src, dest)
     create_file_directory dest
 
+    config = src.read
     File.open(dest, 'w') do |file|
-      file.write src.read
+      file.write config
     end
   end
 
